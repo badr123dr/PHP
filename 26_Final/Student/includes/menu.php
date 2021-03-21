@@ -1,7 +1,8 @@
 <?php
 	define("TITLE", "Menu | Franklin's Fine Dining");
 	
-	include('includes/header.php');
+	include('../includes/header.php');
+	include("../includes/array.php");
 ?>
 	
 	<div id="menu-items">
@@ -28,4 +29,4 @@
 	
 	<hr>
 			
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>

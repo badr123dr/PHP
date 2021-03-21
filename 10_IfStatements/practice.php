@@ -2,9 +2,10 @@
 	
 	// Constants
 
-	
+	define("titre","IF STATEMENT");
 	// Custom Variables
-
+	$a=20;
+	$b=44;
 
 ?>
 
@@ -26,6 +27,15 @@
 			<h2>Your Example</h2>
 			
 			<div class="sandbox">
+
+			<?php
+			
+				if($a<$b)
+				echo ("right answer");
+				else 
+				echo("it can't be ")
+			
+			?>
 				
 			</div><!-- end sandbox -->
 			

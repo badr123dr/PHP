@@ -280,6 +280,7 @@ input.button.next {
 #final-example .wrapper {
 	width: 800px;
 	padding: 0;
+	height: 600px
 }
 
 #final-example .content {

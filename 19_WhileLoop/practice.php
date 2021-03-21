@@ -1,9 +1,14 @@
 <?php
 	
 	// Constants
+	define("titre","boucle while");
 
 	
 	// Custom Variables
+	$lesson_number=19;
+
+	$number=6;
+
 
 
 ?>
@@ -20,16 +25,21 @@
 				<img src="../assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <!-- LESSON NUMBER -->: <small><!-- TITLE --></small></h1>
+			<h1>Tutorial <?php echo $lesson_number;?>: <small><?php echo titre;?></small></h1>
 			<hr>
 			
-			<h2>Your Example</h2>
+			<h2>My Example</h2>
 			
 			<div class="sandbox">
 				
 				<?php
 				 
-				    // your code here
+				   while($number<=25)
+				   {
+						echo $number."</br>";
+						$number++;
+
+				   }
 				 
 				?>
 				

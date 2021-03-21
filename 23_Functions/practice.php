@@ -6,6 +6,9 @@
 	// Custom Variables
 	$myName	= "Brad Hussey";
 	$lessonNum	= 23;
+
+
+
 	
 ?>
 
@@ -31,28 +34,54 @@
 				<h3>Using <code>sort()</code></h3>
 				<?php
 					
-					// your code here
+				
+					$numbers=array(1,20,0,13,234,2);
+					sort($numbers);
+
+					foreach($numbers as $sortedNumber)
+					{
+					echo "$sortedNumber </br>";
+					}
+				
 					
 				?>
 				
 				<h3>Using <code>rsort()</code></h3>
 				<?php
 					
-					// your code here
+					$numbers=array(1,20,0,13,234,2);
+					rsort($numbers);
+
+					foreach($numbers as $sortedNumber)
+					{
+					echo "$sortedNumber </br>";
+					}
 					
 				?>
 				
-				<h3>Using <code>strtolower()</code></h3>
+				<h3>Using <code>strtoupper()</code></h3>
 				<?php
 					
-					// your code here
+					$numbers=array("hak","rwah","ngulk","hedra","vite","fait");
+					strtoupper($numbers);
+
+					foreach($numbers as $sortedNumber)
+					{
+					echo "$sortedNumber </br>";
+					}
 					
 				?>
 				
 				<h3>Using <code>sha1()</code></h3>
 				<?php
 					
-					// your code here
+					$numbers=array("hak","rwah","ngulk","hedra","vite","fait");
+					sha1($numbers);
+
+					foreach($numbers as $sortedNumber)
+					{
+					echo "$sortedNumber </br>";
+					}
 					
 				?>
 				

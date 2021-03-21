@@ -1,36 +1,45 @@
 <?php
 	
 	// Constants
+	define("title" ,"assotiative arrays");
 	
-	
-	// Custom Variables
 
+	// Custom Variables
+	$myname="Badr-eddine";
+	$lesson_number=7;
+	$year=date('Y');
 	
 	// Moustache Associative Array
+	
+	$myarrays=array(
+						"clothes" => "tshirt",
+						99=>"juan antionio",
+						"hand"=>81
+	);
 
 ?>
 
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PHP <!-- PAGE TITLE --></title>
-		<link href="../assets/styles.css" rel="stylesheet">
+		<title>PHP </title>
+		<link href="/assets/styles.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="wrapper">
 			<a href="/" title="Back to directory" id="logo">
-				<img src="../assets/img/logo.png" alt="PHP">
+				<img src="/assets/img/logo.png" alt="PHP">
 			</a>
 			
-			<h1>Tutorial <!-- LESSON NUMBER -->: <small><!-- PAGE TITLE --></small></h1>
+			<h1>Tutorial <?php echo $lesson_number;?>: <small><?php echo title;?></small></h1>
 			<hr>
 			
 			<h2>Your Example</h2>
 			
 			<div class="sandbox">
 			
-				<h2>The <!-- MOUSTACHE NAME --> Moustache!</h2>
-				<p>This moustache is quite the dirt squirrel! It boasts a creep factor of <strong><!-- CREEP FACTOR --></strong> and takes <strong><!-- GROWTH DAYS --> days</strong> to grow on average.</strong></p>
+				<h2>The <?php echo $myarrays[hand] ;?> of my array</h2>
+				<p>This element of array represent the number of hands <strong><!-- CREEP FACTOR --></strong> <strong><!-- GROWTH DAYS --> </strong> </strong></p>
 				
 			</div><!-- end sandbox -->
 			
@@ -38,7 +47,7 @@
 			
 			<hr>
 			
-			<small>&copy;<!-- YEAR --> - <!-- YOUR NAME --></small>
+			<small>&copy;<?php echo $year?>;- <?php echo $myname?>;</small>
 		</div><!-- end wrapper -->
 		
 		<div class="copyright-info">

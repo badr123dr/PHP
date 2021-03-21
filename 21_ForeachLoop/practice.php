@@ -7,6 +7,9 @@
 	$myName	= "Brad Hussey";
 	$lessonNum	= 21;
 
+	$colors=array("blue","red","green");
+	
+
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +33,10 @@
 				
 				<?php
 				 
-				    // your code here
+					foreach($colors as $color)
+					{
+						echo("your color is $color </br>");
+					}
 				 
 				?>
 				

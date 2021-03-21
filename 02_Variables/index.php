@@ -45,9 +45,9 @@
 				<h3>Integer</h3>
 				<p>An integer variable is any whole number.</p>
 <pre class="brush: php">
-&lt;?php
-	$fav_num = 2940;
-?&gt;
+&lt;<?php
+	$fav_num = 2940;?>
+&gt;
 </pre>
 				
 				<h3>Floating Point</h3>

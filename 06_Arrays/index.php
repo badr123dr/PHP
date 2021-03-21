@@ -53,13 +53,13 @@ $moustaches = array("Handlebar", "Salvador Dali", "Fu Manchu");
 			<p>If we want to grab a value out of an array and display it on our web page, we just reference the array and the key associated with the value we want to display, like so:</p>
 
 <pre class="brush: php">
-&lt;?php
+&lt;<?php
 echo $moustaches[0]; // this will display "Handlebar"
 
 echo $moustaches[1]; // this will display "Salvador Dali"
 
 echo $moustaches[2]; // this will display "Fu Manchu"
-?&gt;
+?>&gt;
 </pre>
 				<p>Arrays are pretty powerful, and there's a lot more to them. So stay tuned!</p>
 	

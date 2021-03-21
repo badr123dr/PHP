@@ -2,7 +2,8 @@
 	
 	define("TITLE", "Menu | Franklin's Fine Dining");
 	
-	include('includes/header.php');
+	include('../includes/header.php');
+	include("../includes/array.php");
 	
 	// Strip bad characters function
 	// Learn more about preg_replace: http://php.net/manual/en/function.preg-replace.php
@@ -40,4 +41,4 @@
 	
 	<a href="menu.php" class="button previous">&laquo; Back to Menu</a>
 			
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>
